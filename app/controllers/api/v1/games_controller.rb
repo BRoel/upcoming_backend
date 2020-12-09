@@ -1,5 +1,6 @@
 class Api::V1::GamesController < ApplicationController
-    
+    skip_before_action :authorized, only: [:index]
+
     def index
         games = Game.all
         render json: GameSerializer.new(games)
@@ -8,7 +9,7 @@ class Api::V1::GamesController < ApplicationController
     def create
         game = Game.new(game_params)
         if game.save
-            render json: game, status: :accepted #sending status codes and accepting or rejecting (look more into this)
+            render json: GameSerializer.new(game), status: :accepted #sending status codes and accepting or rejecting (look more into this)
         else
             render json: {errors: game.errors.full_messages}, status: :unprocessible_entity
         end
