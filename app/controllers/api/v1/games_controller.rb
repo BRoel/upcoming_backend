@@ -2,7 +2,7 @@ class Api::V1::GamesController < ApplicationController
     
     def index
         games = Game.all
-        render json: games
+        render json: GameSerializer.new(games)
     end
 
     def create
@@ -11,6 +11,7 @@ class Api::V1::GamesController < ApplicationController
             render json: game, status: :accepted #sending status codes and accepting or rejecting (look more into this)
         else
             render json: {errors: game.errors.full_messages}, status: :unprocessible_entity
+        end
     end
 
     private
