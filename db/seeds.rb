@@ -22,4 +22,4 @@ simulation = Genre.create(name: 'Simulation')
 sports = Genre.create(name: 'Sports')
 strategy = Genre.create(name: 'Strategy')
 
-Game.create(title: 'Hogwarts Legacy', description: 'Open world Harry Potter Universe game', release_date: '2020-12-25T00:00:00.000Z', image_url: 'https://assets-prd.ignimgs.com/2020/09/16/hogwarts-legacy-button-00-1600289500943.jpg?width=188', genre_id: action.id)
+Game.create(title: 'Hogwarts Legacy', description: 'Open world Harry Potter Universe game', release_date: "2021-12-31", image_url: 'https://assets-prd.ignimgs.com/2020/09/16/hogwarts-legacy-button-00-1600289500943.jpg?width=188', genre_id: action.id)
