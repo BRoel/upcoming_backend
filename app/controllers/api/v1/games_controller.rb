@@ -14,6 +14,11 @@ class Api::V1::GamesController < ApplicationController
         end
     end
 
+    def destroy
+        game = Game.find(params[:id])
+        game.destroy
+    end
+
     private
 
     def game_params
