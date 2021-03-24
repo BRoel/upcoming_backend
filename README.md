@@ -1,6 +1,9 @@
 # Upcoming-Backend
 Upcoming is an application used to add and remove your desired upcoming games to track. Uses a Rails API and JS frontend. To get this application running please follow this readme, along with the readme in the link below. https://github.com/BRoel/upcoming_frontend
 
+##### Watch my demo on YouTube
+<a href= 'https://www.youtube.com/watch?v=BrFE2qKmIj4' rel="nofollow"><img src= "https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
+
 # Installation 
 
 Before you continue, ensure you have installed the latest version of Ruby
