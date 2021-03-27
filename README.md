@@ -8,6 +8,10 @@ Upcoming is an application used to add and remove your desired upcoming games to
 
 Before you continue, ensure you have installed the latest version of Ruby
 
+# Future Implementations
+
+<li>Add Tests</li>
+
 Fork and Clone this Repository
 ```
 $ git clone https://github.com/BRoel/upcoming_frontend.git
