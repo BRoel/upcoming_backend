@@ -4,13 +4,13 @@ Upcoming is an application used to add and remove your desired upcoming games to
 ##### Watch my demo on YouTube
 <a href= 'https://www.youtube.com/watch?v=BrFE2qKmIj4' rel="nofollow"><img src= "https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
 
-# Installation 
-
-Before you continue, ensure you have installed the latest version of Ruby
-
 # Future Implementations
 
 <li>Add Tests</li>
+
+# Installation 
+
+Before you continue, ensure you have installed the latest version of Ruby
 
 Fork and Clone this Repository
 ```
